@@ -1,15 +1,35 @@
-\documentclass[a4paper,10pt]{letter}
-\usepackage[latin1]{inputenc}
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\hyphenation{co-mi-lla}
 \begin{document}
+\title{Título del artículo}
+\author{Nombre y Apellido \\
+        Técnicas Experimentales~\footnote{Universidad de La Laguna}
+       }
+\date{\today}
+\maketitle
+\begin{abstract}
+  En \LaTeX{}~\cite{Lam:86} es sencillo escribir expresiones
+  matemáticas como $a=\sum_{i=1}^{10} {x_i}^{3}$
+  y deben ser escritas entre dos símbolos \verb|\$|.
+  Los superíndices se obtienen con el símbolo \verb|\^{}|, y
+  los subíndices con el símbolo \verb|\_|.
+  Por ejemplo: $x^2 \times y^{\alpha + \beta}$.
+  También se pueden escribir fórmulas centradas:
+  \[h^2=a^2 + b^2 \]
+\end{abstract}
+
+\section{Primera sección}
 \par Si simplemente se desea escribir texto normal en LaTex,
-sin complicadas fórmulas matemáticas o efectos especiales
+sin complicadas f\'ormulas matem\'aticas o efectos especiales
 como cambios de fuente, entonces simplemente tiene que escribir
-en español normalmente.
-\par Si desea cambiar de párrafo ha de dejar una línea en blanco o bien
+en espa\~nol normalmente.
+\par Si desea cambiar de p\'arrafo ha de dejar una l\'inea en blanco o bien
 utilizar el comando \verb|\par|.
-No es necesario preocuparse de la sangría de los párrafos:
-todos los párrafos se sangrarán automáticamente con la excepción
-del primer párrafo de una sección.
+No es necesario preocuparse de la sangr\'ia de los p\'arrafos:
+todos los p\'arrafos se sangrar\'an autom\'aticamente con la excepci\'on
+del primer p\'arrafo de una secci\'on.
 
 Se ha de distinguir entre la comilla simple 'izquierda'
 y la comilla simple 'derecha' cuando se escribe en el ordenador.
@@ -17,9 +37,8 @@ En el caso de que se quieran utilizar comillas dobles se han de
 escribir dos caracteres 'comilla simple' seguidos, esto es,
 ''comillas dobles''.
 
-También se ha de tener cuidado con los guiones: se utiliza un único
-guión para la separación de sílabas, mientras que se utilizan
-tres guiones seguidos para producir un guión de los que se usan
-como signo de puntuación --- como en esta oración.
+Tambi\'en se ha de tener cuidado con los guiones: se utiliza un \'unico
+gui\'on para la separaci\'on de s\'ilabas, mientras que se utilizan
+tres guiones seguidos para producir un gui\'on de los que se usan
+como signo de puntuaci\'on --- como en esta oraci\'on.
 \end{document}
-
