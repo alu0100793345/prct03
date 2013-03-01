@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.1.15)  1 MAR 2013 12:03
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.1.15)  1 MAR 2013 12:11
 entering extended mode
  %&-line parsing enabled.
 **latex-src.tex
@@ -291,16 +291,18 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 46.
  [1
 
 ] [2] (./latex-src.aux) ) 
 Here is how much of TeX's memory you used:
- 1069 strings out of 495062
- 11937 string characters out of 1182644
- 69345 words of memory out of 3000000
- 4292 multiletter control sequences out of 15000+50000
- 9487 words of font info for 34 fonts, out of 3000000 for 9000
+ 1072 strings out of 495062
+ 11982 string characters out of 1182644
+ 70345 words of memory out of 3000000
+ 4295 multiletter control sequences out of 15000+50000
+ 10102 words of font info for 36 fonts, out of 3000000 for 9000
  29 hyphenation exceptions out of 8191
  24i,11n,27p,175b,251s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on latex-src.dvi (2 pages, 3372 bytes).
+Output written on latex-src.dvi (2 pages, 3844 bytes).
